@@ -6,4 +6,3 @@ RUN docker-php-ext-install mbstring pdo_pgsql curl json intl gd xml zip bz2 opca
 RUN pecl install xdebug
 RUN docker-php-ext-enable xdebug
 RUN curl -sS https://getcomposer.org/installer | php
-RUN cp composer.phar /composer.phar
